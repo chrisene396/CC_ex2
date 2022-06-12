@@ -2,7 +2,7 @@ version: '3'
 services:
   server:
     build: ./server
-    image: chrisene/cloudcomputinggroup96:latest
+    image: cloudcomputinggroup96:latest
     container_name: cloudcomputinggroup96
     depends_on:
       - "mongodb"
